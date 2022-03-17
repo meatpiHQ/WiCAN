@@ -15,7 +15,7 @@
 7. The CAN menu allows to choose the protocol set the bitrate and TCP/UPD port number.
 8. When ready click submit Changes button and the device will store the configuration reboot immediately.
 
-<img src="https://user-images.githubusercontent.com/94690098/158788439-729c8de4-9961-4d9d-af54-c572cb711273.jpg" width="500" height="1000" >
+<img src="https://user-images.githubusercontent.com/94690098/158788439-729c8de4-9961-4d9d-af54-c572cb711273.jpg" width="300" height="600" >
 
 ### BUSMaster
 You need to download the right version of BUSMaster provided in this [**Link**](https://bit.ly/3yGgGTm) above. Here is how to setup the hardware. 
@@ -27,12 +27,13 @@ You need to download the right version of BUSMaster provided in this [**Link**](
 5. Choose the Baudrate.
 6. Click 'OK', then Click the Connect button on the top left corner.
   
-![image](https://user-images.githubusercontent.com/94690098/158798541-0317aa4f-ebf5-4e57-83b0-ea3fefeaf4e9.png)
+
+<img src="https://user-images.githubusercontent.com/94690098/158798541-0317aa4f-ebf5-4e57-83b0-ea3fefeaf4e9.png" width="350" height="500" >
 
 ### Firmware Update
 Use the ESP flash tool to update the firmware, just follow the same setting in the picture below. Also "esptool.py" can also be used to flash a new firmware.
 
-<img width="500" alt="flash2" src="https://user-images.githubusercontent.com/94690098/158790496-31827bf3-4bda-47db-971d-ac1d53ad7972.PNG">
+<img src="https://user-images.githubusercontent.com/94690098/158790496-31827bf3-4bda-47db-971d-ac1d53ad7972.PNG" width="350" height="600" >
 
 ## 3. ReadDash
 WiCAN can connect with RealDash using WiFi or BLE. The Protocol and CAN bitrate must be set using the configuration page. BLE is only support on Android and IOS. Windows 10 only supports WiFi connection.

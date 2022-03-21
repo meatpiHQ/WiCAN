@@ -15,7 +15,7 @@
 7. The CAN menu allows to choose the protocol set the bitrate and TCP/UPD port number.
 8. When ready click submit Changes button and the device will store the configuration reboot immediately.
 
-<img src="https://user-images.githubusercontent.com/94690098/158788439-729c8de4-9961-4d9d-af54-c572cb711273.jpg" width="300" height="600" >
+<img src="https://user-images.githubusercontent.com/94690098/159266354-2dfcd8cf-7bf2-4133-80e9-9eaec202612e.png" width="300" height="600" >
 
 # 2. BUSMaster
 You need to download the right version of BUSMaster provided in this [**Link**](https://bit.ly/3yGgGTm) above. Here is how to setup the hardware. 

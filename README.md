@@ -69,10 +69,19 @@ WiCAN can connect with RealDash using WiFi or BLE. The Protocol and CAN bitrate 
 [![Youtube](https://img.youtube.com/vi/qZzDJdLbzR0/0.jpg)](https://www.youtube.com/watch?v=qZzDJdLbzR0)
   
 # 4. Firmware Update
+
+### Esp Flash Tool
 Use the ESP flash tool to update the firmware, just follow the same setting in the picture below. Also "esptool.py" can also be used to flash a new firmware.
 
 <img src="https://user-images.githubusercontent.com/94690098/158790496-31827bf3-4bda-47db-971d-ac1d53ad7972.PNG" width="350" height="600" >
 
+### Esptool.py
+
+Replace variables starting with $ with your values
+
+```
+esptool.py --chip=esp32c3 --baud=1152000 --port=/dev/$tty.usbmodem_file_name --after=no_reset write_flash --flash_mode=qio --flash_freq=80m 0x0 bootloader.bin 0x8000 partition-table.bin 0x10000 $wican-fw_file_name.bin 
+```
 
 ---
 
